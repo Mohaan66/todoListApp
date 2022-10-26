@@ -1,0 +1,157 @@
+.items {
+    align-items: center;
+    color: blue;
+    
+    justify-content: space-between;
+    
+   
+}
+.items h1 {
+    color: black;
+    font-size: 1.7rem;
+}
+.items .crossText {
+    text-decoration: line-through;
+    color: red;
+  }
+
+  .items input {
+    
+    background: transparent;
+    align-items: center;
+    border: none;
+    color: black;
+    border-bottom: 5px dashed rgb(11, 11, 12);
+    min-width: 400px;
+    margin-top: 40px;
+    padding: 5px;
+    font-size: 1rem;
+    
+  }
+
+
+ 
+
+  .items input::placeholder {
+    color: black;
+    font-size: 1.3rem;
+  }
+
+  .items input:focus {
+    outline: none;
+    border: 2px dotted rgb(121, 26, 26);
+  }
+
+  .items .add-btn {
+    padding: 10px;
+    border-radius: 30%;
+    color: black;
+    font-size: 1.2rem;
+    background-color: yellow ; 
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 3px solid black;
+    
+  }
+
+  .items .add-btn:hover {
+    padding: 15px;
+    font-size: 1.5rem;
+  }
+
+  .items ul {
+    
+    margin-top: 30px;
+    font-size: 1.5rem;
+  }
+
+  .items ul li {
+    
+    list-style: none;                                        
+    margin-bottom: 10px;
+    
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-left: -60px;
+    background-color: rgb(236, 236, 236, 0.6);
+    font-family: "Permanent Marker", cursive;
+    color: black;
+  }
+
+
+  
+  
+  .items ul li .delete {
+    margin-top: 5px;
+    float: right;
+    padding: 4px 10px 4px 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    
+  }
+  
+  .items ul li .completed {
+    margin-top: 5px;
+    float:right;
+    padding: 4px 10px 4px 10px;
+    border-radius: 80px;
+    border: none;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+  }
+
+  .items ul li .editbtn {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    padding:4px 10px 4px 10px ;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(38, 34, 241);
+    color: white;
+  }
+
+  .items ul li .submitedit {
+    margin-top: 5px;
+    padding:4px 10px 4px 10px ;
+    border-radius: 20px;
+    border: none;
+    background-color: #31185270;
+   
+    color: white;
+  }
+
+
+
+  
+
+
+
+  .form-area {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 700px;
+    min-height: 600px;
+    background: #5fb9ee;
+    text-align: center;
+    margin: 4px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+    text-align: left;
+    z-index: 1;
+  }
+  
+
